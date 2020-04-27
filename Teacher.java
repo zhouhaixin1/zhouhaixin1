@@ -17,5 +17,8 @@ public class Teacher{
 	public String getName(){
 		return name;
 	}
-
+	
+	public String toString(){
+		return "Teacher [name=" + name + "]";
+	}
 }
